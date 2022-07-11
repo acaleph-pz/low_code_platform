@@ -1,0 +1,11 @@
+{
+  "container":{
+    "width":500,
+    "height":500
+  },
+  "blocks":[
+    {"top":100,"left":150,"zIndex":2,"key":"text"},
+    {"top":100,"left":150,"zIndex":2,"key":"banner"},
+    {"top":100,"left":150,"zIndex":2,"key":"image"}
+  ]
+}
