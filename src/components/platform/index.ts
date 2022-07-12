@@ -1,1 +1,3 @@
-export { default as Platform } from './src/platform'
+import Platform from './src/platform'
+
+export default Platform

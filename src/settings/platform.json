@@ -1,11 +1,11 @@
 {
-  "container":{
-    "width":500,
-    "height":500
+  "container": {
+    "width": 700,
+    "height": 800
   },
-  "blocks":[
-    {"top":100,"left":150,"zIndex":2,"key":"text"},
-    {"top":100,"left":150,"zIndex":2,"key":"banner"},
-    {"top":100,"left":150,"zIndex":2,"key":"image"}
+  "blocks": [
+    { "top": 100, "left": 150, "zIndex": 2, "key": "text" },
+    { "top": 200, "left": 150, "zIndex": 2, "key": "banner" },
+    { "top": 300, "left": 150, "zIndex": 2, "key": "image" }
   ]
 }

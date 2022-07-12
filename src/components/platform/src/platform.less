@@ -1,0 +1,65 @@
+.platform{
+  background-color: beige;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  &-header{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+  }
+  &-left,&-right{
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    top: 50px;
+    bottom: 0;
+    background-color: brown;
+    z-index:1;
+  }
+  &-left{
+    left: 0;
+  }
+  &-right{
+    right: 0;
+    background-color: brown;
+  } 
+  &-container{
+    position: relative;
+    padding: 0 300px 0;
+    height:100%;
+    box-sizing: border-box;
+    &-canvas{
+      overflow: scroll;
+      height: 100%;
+    }
+    &-content{
+      margin: 20px auto;
+      background-color: yellow;
+      position: relative;
+    }
+  }
+}
+.block-item{
+  position: absolute;
+}
+.component-item{
+  height: 130px;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  &-tip{
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color: cadetblue;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+}
